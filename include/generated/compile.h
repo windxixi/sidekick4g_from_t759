@@ -1,8 +1,8 @@
-/* This file is auto generated, version 64 */
+/* This file is auto generated, version 71 */
 /*  PREEMPT */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#64 PREEMPT Mon Jul 1 07:36:46 PDT 2013"
-#define LINUX_COMPILE_TIME "07:36:46"
+#define UTS_VERSION "#71 PREEMPT Thu Jul 18 02:33:10 PDT 2013"
+#define LINUX_COMPILE_TIME "02:33:10"
 #define LINUX_COMPILE_BY "windxixi"
 #define LINUX_COMPILE_HOST "ubuntu"
 #define LINUX_COMPILE_DOMAIN "(none)"

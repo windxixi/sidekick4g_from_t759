@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.7
- * Mon Jun 17 08:17:42 2013
+ * Wed Jul 17 08:32:28 2013
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -294,6 +294,7 @@
 #define CONFIG_IPV6_NDISC_NODETYPE 1
 #define CONFIG_CGROUP_SCHED 1
 #define CONFIG_SYSVIPC 1
+#define CONFIG_KEYBOARD_GPIO 1
 #define CONFIG_NF_CONNTRACK_FTP 1
 #define CONFIG_MODULES 1
 #define CONFIG_IP_NF_MATCH_ECN 1
