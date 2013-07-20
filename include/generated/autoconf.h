@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.7
- * Wed Jul 17 08:32:28 2013
+ * Thu Jul 18 02:53:06 2013
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -531,7 +531,6 @@
 #define CONFIG_INET6_IPCOMP 1
 #define CONFIG_ANDROID_RAM_CONSOLE 1
 #define CONFIG_IPV6_TUNNEL 1
-#define CONFIG_LOCALVERSION_AUTO 1
 #define CONFIG_MEDIA_TUNER_MT20XX 1
 #define CONFIG_MISC_FILESYSTEMS 1
 #define CONFIG_FTRACE 1

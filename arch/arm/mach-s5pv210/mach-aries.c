@@ -1877,15 +1877,15 @@ static struct gpio_event_direct_entry aries_keypad_key_map[] = {
 		.code	= KEY_POWER,
 	},
 	{
-		.gpio	= S5PV210_GPH3(1),
+		.gpio	= S5PV210_GPH1(6),
 		.code	= KEY_VOLUMEDOWN,
 	},
 	{
-		.gpio	= S5PV210_GPH3(2),
+		.gpio	= S5PV210_GPH2(0),
 		.code	= KEY_VOLUMEUP,
 	},
 	{
-		.gpio	= S5PV210_GPH3(5),
+		.gpio	= S5PV210_GPH3(7),
 		.code	= KEY_HOME,
 	}
 };
@@ -5310,7 +5310,7 @@ static void __init aries_machine_init(void)
 
 #if !(defined (CONFIG_S5PC110_HAWK_BOARD) || defined (CONFIG_S5PC110_KEPLER_BOARD) || defined(CONFIG_S5PC110_VIBRANTPLUS_BOARD))
 	/* nfc sensor */
-	i2c_register_board_info(14, i2c_devs14, ARRAY_SIZE(i2c_devs14));
+	//i2c_register_board_info(14, i2c_devs14, ARRAY_SIZE(i2c_devs14));
 #endif
 
 #if defined (CONFIG_FB_S3C_TL2796)|| defined (CONFIG_FB_S3C_uPD161224)
